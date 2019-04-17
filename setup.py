@@ -16,8 +16,6 @@ VER_FILEPATH = convert_path('shadowbot/version.txt')
 with open(VER_FILEPATH) as file:
     __version__ = file.read()
 
-print(__version__)
-
 setup(
     name='Shadowbot',
     description='A "shadowplay for voice" Discord bot',
